@@ -1,0 +1,94 @@
+body {
+    /* font-family:"Oswald", sans-serif ; */
+    margin: 0;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+   
+}
+header a{
+color:  rgb(243, 239, 12);
+    font-size: 20px;
+    padding: 10px;
+    text-shadow: rgba(34, 68, 170, 0.8);
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+    left: 0;
+
+}
+header ul{
+    display: flex;
+}
+header li{
+    margin-left: 10px;
+    
+}
+nav a:hover{
+    color: rgb(2, 8, 10);
+    background-color: rgb(243, 239, 12);
+    border-radius: 2px;
+    font-size: 20px;
+    padding: 10px;
+}
+#page-logo a{
+    font-family:"Creepster" ,sans-serif;
+    padding: 10px;
+    font-size: 50px;
+    text-decoration: none;
+    color: rgb(126, 216, 179);
+    text-transform: uppercase;
+    text-shadow: 2px 4px 8px rgb(105, 12, 12);
+}
+
+
+/* li {
+    text-decoration: none;
+} */
+
+footer{
+    background:linear-gradient(0deg, rgb(45, 48, 49),rgb(77, 82, 81));
+    
+
+    
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+ 
+}
+footer li{
+    margin-top: -19px;
+    width: 60px;
+    height: 20px;
+  
+    border-radius: 30px;
+
+    
+   
+    
+}
+footer img{
+    height: 40px;
+    width: 40px;
+  
+  
+   
+}
+.styleImg{
+border-radius: 200px;
+}

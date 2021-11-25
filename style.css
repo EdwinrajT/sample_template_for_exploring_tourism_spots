@@ -1,0 +1,201 @@
+
+#hero{
+    height: 700px;
+    background-image: url("images/places/nature.jpg");
+    background-position: center;
+    background-size: cover;          
+}
+#hero-content{
+    width: 750px;
+    background-color:rgba(192, 238, 215, 0.8);
+    text-align: center;
+    box-shadow: 2px 4px 8px rgba(29, 105, 77, 0.8);
+    border-radius: 9px;
+    padding: 50px 0;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+}
+#hero-content h1{
+    color: rgb(43, 23, 117);
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: "Arial Narrow Bold", sans-serif;
+    margin: 0;
+
+}
+
+#hero-content p{
+    color: rgb(32, 38, 117);
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: "Fira",sans-serif;
+    margin: 0;
+    padding-top: 17px;
+    font-weight: 300px;
+
+}
+
+#hero-content a{
+    background-color: rgb(243, 239, 12);
+    padding: 5px;
+    position: relative;
+    top: 20px;
+    border-radius: 4px;
+    border: 1px solid rgb(102, 92, 6);
+    color: black;
+    box-shadow: 2px 4px 8px rgb(58, 155, 134);
+}
+
+#hero-content a:hover{
+    background-color: rgb(231, 247, 9);
+}
+
+.destination img{
+    height: 220px;
+    width: 550px;
+    box-shadow: 4px 8px 12px rgb(123, 219, 223);
+    border-radius: 10px;
+    object-fit: cover;
+   
+}
+.destination{
+    margin: auto 20px;
+}
+#destinations{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 40px;
+    justify-content: center; 
+    text-transform: uppercase;  
+}
+#destinations p{
+
+    text-align: center;
+    margin: 9px;
+    font-size: 18px;
+   
+}
+strong{
+    color: rgb(19, 11, 131);
+   
+}
+strong:hover{
+    border: 1px solid rgb(138, 127, 68);
+    border-radius: 7px;
+   padding: 5px;
+
+    background-color: rgb(243, 239, 12);
+}
+#highlights h2{
+    text-align: center;
+    text-transform: uppercase;
+   margin-top: auto;
+}
+#highlights{
+    height: 300px;
+ padding: 24px;
+ background: linear-gradient(360deg, rgb(151, 208, 235),rgb(160, 224, 212));
+   
+}
+footer{
+    background:linear-gradient(0deg, rgb(45, 48, 49),rgb(77, 82, 81));
+    
+
+    
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+ 
+}
+footer li{
+    margin-top: -19px;
+    width: 60px;
+    height: 20px;
+  
+    border-radius: 30px;
+
+    
+   
+    
+}
+footer img{
+    height: 40px;
+    width: 40px;
+  
+  
+   
+}
+.styleImg{
+border-radius: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+#container{
+    background-color: rgb(87, 11, 74);
+    margin: 10px;
+    
+    padding: 20px;
+    width: 600px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+} */
+/* p{
+    background-color: salmon;
+    margin: 10px;
+    width: 250px;
+    padding: 5px;
+} */
+/* 
+ul{
+    background-color: skyblue;
+    width:250px;
+    margin: 4px;
+    padding: 0px;
+    display: flex;
+  justify-content: flex-end;
+}
+li{
+    list-style: none;
+    width:100px;
+    background-color: rgb(101, 117, 62);
+    text-align: right;
+} */
+/* li a{
+    border: 1px solid royalblue;
+    padding: 3px;
+    border-radius: 20px;
+    background-color: sandybrown;
+    width: 150px;
+    box-shadow: 2px 2px 2px rebeccapurple
+}
+a{
+    text-decoration: none;
+} */
